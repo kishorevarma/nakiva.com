@@ -10,9 +10,9 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.jsx?$/,
-            loaders: ['babel'],
+            loader: 'babel-loader',
             exclude: /node_modules/,
-            include: path.join(__dirname, 'js')
+            query: {stage: 0}
         }, {
             test: /\.css$/,
             loader: "style-loader!css-loader"
