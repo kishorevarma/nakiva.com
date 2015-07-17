@@ -1,0 +1,261 @@
+ body {
+     font-family: 'Lato', sans-serif;
+     background: url('/images/background.jpg');
+     margin-top: 0;
+ }
+ .hide {
+     display: none;
+ }
+ .show {
+     display: block;
+ }
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .heading {
+     margin: 10px 0px;
+     background-color: #000;
+     display: flex;
+     height: 40px;
+     align-items: center;
+     font-weight: bold;
+     font-size: 18px;
+     color: #FFF;
+     padding-left: 10px;
+ }
+ 
+ .profileCont {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+ 
+ .left,
+ .right {
+     flex: 1;
+ }
+
+ .right {
+     display: flex;
+     align-self: flex-start;
+ }
+ 
+ .middle {
+     width: 2px;
+     height: 600px;
+     background-color: #eee;
+ }
+ 
+ .nav {
+     background: #000;
+     height: 40px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .nav a {
+     display: inline-block;
+     padding: 5px;
+     margin: 0px 12px 0px 3px;
+     text-decoration: none;
+     font-size: 18px;
+     color: #FFF;
+ }
+ 
+ .nav a.active {
+     background-color: #FFF;
+     color: #000;
+ }
+ 
+ .picCont {
+     flex-direction: row;
+     display: flex;
+     align-items: center
+ }
+ 
+ .pic {
+     width: 100px;
+     height: 100px;
+     border: 1px solid #000;
+     border-radius: 50px;
+     margin-top: 10px;
+     background-size: 163px 112px;
+     background-position-x: -25px;    
+     background-image: url('/images/kishore.jpg');
+ }
+ 
+ .pic:hover {
+     bacakground: #000;
+ }
+ 
+ .bio {
+     margin-left: 15px;
+     display: flex;
+     flex-wrap: wrap;
+     width: 300px;
+ }
+ 
+ .skills,
+ .org {
+     margin: 15px 0px 0px 20px;
+ }
+ 
+ .skills li {
+     
+ }
+
+ .skills a {
+     display: block;
+ 	text-decoration: none;
+ 	color: #000;
+     margin: 4px 0px;
+     cursor: pointer;
+     padding: 3px 0px;
+     font-weight: 900;
+     font-size: 18px;
+     padding-left: 10px;
+ }
+ 
+ .skills a:hover , .skills a.active{
+     background-color: #FFF;
+     color: #000;
+ }
+ 
+
+ .org {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     width: 90%;
+ }
+ 
+ .org li {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .org .logo {
+     width: 90px;
+     height: 90px;
+     border-radius: 90px;
+ }
+
+.orgDetailsCont {
+     width: 100%;
+}
+ .orgDetailsCont .projectName {
+     background-color: #fff;
+     padding-left: 15px;
+     font-size: 17px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     cursor: pointer;
+ }
+
+ .orgDetailsCont .projectDetails {
+     margin-left: 20px;
+ }
+
+ .orgDetailsCont .subHeading {
+     font-weight: bold;
+     font-size: 18px;
+     margin-bottom: 2px;
+ }
+
+ .orgDetailsCont .projectTech, .orgDetailsCont .projectDesc, .orgDetailsCont .myRole{
+     margin: 0 0 10px 15px;
+     line-height: 1.3;
+ }
+
+.orgDetailsCont .logo  {
+     display: flex;
+     flex-direction: row;
+     width: 150px;
+
+     align-items: center;
+}
+ .orgDetailsCont .logo img {
+     width: 60px;
+     width: 60px;
+ }   
+ 
+ .orgDetailsCont .logo .companyName {
+     margin-left: 10px;
+     font-weight: bold;
+     font-size: 18px;
+     background-color: #FFF
+ }
+
+.skillDetailsCont {
+     width: 100%;
+}
+
+.skillDetailsCont .section {
+     background-color: #fff;
+     width: 100%;
+     font-size: 18px;
+     font-weight: bold;
+     padding-left: 10px;
+}
+
+.skillDetailsCont .skillDetails {
+     width: 70%;
+}
+.skillDetails .skillName {
+     font-size: 18px;
+     font-weight: 400;
+     margin: 10px 0px 3px 40px;
+}
+
+.skillDetails .meter {
+     width: 90%;
+     height: 13px;
+     border: 1px solid #777;
+     margin-left: 40px;
+     background-color: #000;
+}
+
+.skillDetails .meter .proficiency {
+     background-color: #fff;
+     height: 13px;
+}
+
+.skillDetails .meter .p {
+     width: 90%;
+}
+
+.skillDetails .meter .i {
+     width: 70%;
+}
+
+.skillDetails .meter .b {
+     width: 50%;
+}
+
+.aboutCont {
+     width: 80%;
+     background-color: #fff;
+     margin: 0 auto;
+     font-size: 18px;
+     box-sizing: border-box;
+     padding: 20px;
+     line-height: 1.8;
+}
+.contactCont {
+     display: flex;
+  align-items: center;
+  height: 600px;
+  background-color: #fff;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contactDetails li {
+     margin-top: 10px;
+}
