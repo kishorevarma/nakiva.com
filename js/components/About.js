@@ -11,7 +11,8 @@ let About = React.createClass({
                 I have used several libraries to complete the project. I have created
                 a simple rest service using NodeJs and Rethink db for the data store.
 
-                Following are the tech and libararies which I have used 
+                Following are the tech and libararies which I have used  
+                <a href="https://github.com/kishorevarma/nakiva.com" className="githubUrl">https://github.com/kishorevarma/nakiva.com</a>
                 <ul>
     				<li> React Js </li>
     				<li> Flux Pattern </li>

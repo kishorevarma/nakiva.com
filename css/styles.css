@@ -259,3 +259,9 @@
 .contactDetails li {
      margin-top: 10px;
 }
+
+.githubUrl {
+     font-size: 20px;
+     text-decoration: underline;
+     color: #000;
+}
