@@ -3,6 +3,9 @@ var router = express.Router();
 var client = require('../store/client');
 
 
+router.get('/', function(req,res) {
+	res.render('index');
+});
 
 router.get('/skill/list', function(req, res) {
 	client.getSkillList(function(data) {

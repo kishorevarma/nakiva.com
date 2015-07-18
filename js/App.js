@@ -14,6 +14,8 @@ import OrganisationDetails from './components/profile/OrganisationDetails';
 
 require('../css/styles.css');
 
+const rootEl = document.getElementById('root');
+
 let App = React.createClass({  
   mixins: [ Navigation ],
 
@@ -43,4 +45,4 @@ React.render((
       <Route path="contact" component={ContactHandler}/>   
     </Route>
   </Router>
-), document.body);
+), rootEl);
