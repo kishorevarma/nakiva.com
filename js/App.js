@@ -19,11 +19,14 @@ const rootEl = document.getElementById('root');
 let App = React.createClass({  
   mixins: [ Navigation ],
 
+  componentDidMount: function() {
+    this.transitionTo('profile');
+  },
+
   render: function() {
     return (
       <div>
         <NavigationComponent/>
-        <Home/>
         {/* this is the importTant part */}
         {this.props.children}
       </div>

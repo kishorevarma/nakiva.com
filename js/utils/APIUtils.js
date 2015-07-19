@@ -1,7 +1,7 @@
 import 'whatwg-fetch';
 import 'core-js/es6/promise';
 
-const API_ROOT = 'http://www.nakiva.com/api';
+const API_ROOT = '/api';
 
 let fetchData = (url, resKey) => {
 	return fetch(url).then(response => 
