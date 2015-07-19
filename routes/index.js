@@ -7,6 +7,26 @@ router.get('/', function(req,res) {
 	res.render('index');
 });
 
+router.get('/profile', function(req,res) {
+        res.render('index');
+});
+
+router.get('/profile/skill/:id', function(req,res) {
+        res.render('index');
+});
+
+router.get('/profile/org/:id', function(req,res) {
+        res.render('index');
+});
+
+router.get('/about', function(req,res) {
+        res.render('index');
+});
+
+router.get('/contact', function(req,res) {
+        res.render('index');
+});
+
 router.get('/skill/list', function(req, res) {
 	client.getSkillList(function(data) {
 		res.json(data);
