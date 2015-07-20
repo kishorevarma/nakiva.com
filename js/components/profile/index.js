@@ -39,7 +39,6 @@ const requestData = (props) => {
 	ProfileActionCreator.getSkillsList();
 	ProfileActionCreator.getOrgsList();
 
-	console.log("path", type);
 	if(type == "skill") {
 		ProfileActionCreator.getSkillDetails(id);
 	} else {

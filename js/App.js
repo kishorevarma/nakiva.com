@@ -20,7 +20,9 @@ let App = React.createClass({
   mixins: [ Navigation ],
 
   componentDidMount: function() {
-    this.transitionTo('profile');
+    if(this.props.location.pathname === '/') {
+      this.transitionTo('/profile');
+    }
   },
 
   render: function() {
