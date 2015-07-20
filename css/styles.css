@@ -1,6 +1,8 @@
  body {
      font-family: 'Lato', sans-serif;
-     background-color: #F0EFED;
+    /* background-color: #F0EFED; */
+     background-image: url('/images/cloud.jpg');
+     background-size: 100% 100%;
      margin-top: 0;
  }
  .hide {
