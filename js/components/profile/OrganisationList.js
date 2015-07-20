@@ -8,7 +8,12 @@ export default class Organisations extends Component {
 		let orgs = this.props.orgList;
 		return (
 			<div className="orgsCont">
-				<div className="heading"> ORGANISATIONS & PROJECTS</div> 
+				<div className="heading"> ORGANISATIONS & PROJECTS</div>
+				<p className="sectionDesc">I have worked for different product based companies, and worked on various
+				   projects from design phase to production phase. In few projectes I have worked 
+				   as a invidual contributor also. In almost all projects we have followed Agile
+				   methdology
+				</p>
 				<ul className="org"> 
 					{
 						map(orgs, function(org) {

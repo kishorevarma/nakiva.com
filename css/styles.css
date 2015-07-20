@@ -1,8 +1,7 @@
  body {
      font-family: 'Lato', sans-serif;
     /* background-color: #F0EFED; */
-     background-image: url('/images/cloud.jpg');
-     background-size: 100% 100%;
+     background-image: url('/images/texture.jpg');     
      margin-top: 0;
  }
  .hide {
@@ -220,6 +219,7 @@
      border: 1px solid #777;
      margin-left: 40px;
      background-color: #ccc;
+     border-radius: 10px;
 }
 
 .skillDetails .meter .proficiency {
@@ -286,4 +286,8 @@
 .homeCaption {
      font-size: 60px;
      font-weight: bold;
+}
+
+.sectionDesc {
+     padding: 0 15px;
 }
