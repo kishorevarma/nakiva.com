@@ -17,7 +17,7 @@
  
  .heading {
      margin: 10px 0px;
-     background-color: ##055B5A;
+     background-color: #055B5A;
      display: flex;
      height: 24px;
      align-items: center;
@@ -50,7 +50,7 @@
  }
  
  .nav {
-     background: ##055B5A;
+     background-color: #055B5A;
      height: 40px;
      display: flex;
      align-items: center;
@@ -217,11 +217,11 @@
      height: 13px;
      border: 1px solid #777;
      margin-left: 40px;
-     background-color: #000;
+     background-color: #ccc;
 }
 
 .skillDetails .meter .proficiency {
-     background-color: #fff;
+     background-color: #055B5A;
      height: 13px;
 }
 
