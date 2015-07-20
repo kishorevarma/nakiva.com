@@ -98,6 +98,14 @@
      width: 300px;
  }
  
+ .skills {
+     display: flex;
+     flex-direction: column;
+     height: 142px;
+     flex-wrap: wrap;
+     width: 44%;
+     box-sizing: border-box;
+ }
  .skills,
  .org {
      margin: 15px 0px 0px 20px;

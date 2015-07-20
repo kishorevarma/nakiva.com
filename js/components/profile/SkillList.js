@@ -11,8 +11,8 @@ export default class Skills extends Component {
 			<div clasName="skillsCont">
 				<div className="heading"> SKILLS </div>
 				<p className="sectionDesc">
-					Since few years I am using Javascript in backend(NodeJs) and front end.
-					Earlier I used work as full stack developer. I have used PHP, perl as backend.
+					Since few years I am using Nodejs as backend.
+					Earlier I have used PHP, perl as backend.
 					Click to see the skills in each section.
 				</p>
 				<ul className="skills"> 
