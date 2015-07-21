@@ -9,10 +9,8 @@ export default class Organisations extends Component {
 		return (
 			<div className="orgsCont">
 				<div className="heading"> ORGANISATIONS & PROJECTS</div>
-				<p className="sectionDesc">I have worked for different product based companies, and worked on various
-				   projects from design phase to production phase. In few projectes I have worked 
-				   as a invidual contributor also. In almost all projects we have followed Agile
-				   methdology
+				<p className="sectionDesc">I have worked for different product based companies and worked on various projects from the design phase to the production phase.
+				 In few projects, I have worked as an individual contributor. In almost all projects, we have followed Agile methodology
 				</p>
 				<ul className="org"> 
 					{

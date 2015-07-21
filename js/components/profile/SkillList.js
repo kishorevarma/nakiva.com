@@ -11,13 +11,11 @@ export default class Skills extends Component {
 			<div clasName="skillsCont">
 				<div className="heading"> SKILLS </div>
 				<p className="sectionDesc">
-					Since few years I am using Nodejs as backend.
-					Earlier I have used PHP, perl as backend.
-					Click to see the skills in each section.
+					Since few years, I am using Node JS as backend. Earlier I have used PHP, Perl as backend. Click to see the skills in each section.
 				</p>
 				<ul className="skills"> 
 					{
-						map(skills, function(skill) {
+						map(skills, function(skiSince few years, I am using Node JS as backend. Earlier I have used PHP, Perl as backend. Click to see the skills in each section.ll) {
 							return (
 								<Link to={`/profile/skill/${skill.id}`} key={skill.id}>
 									<li key={skill.id}>{skill.section}</li>
