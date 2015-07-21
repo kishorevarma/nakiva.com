@@ -6,12 +6,7 @@ let About = React.createClass({
     return(
     	<div className="aboutCont">
     		<p>
-    			<span>H</span>i in this page I would like to talk about this App. 
-                I have started this project as example for React Router and Flux.
-                I have used several libraries to complete the project. I have created
-                a simple rest service using NodeJs and Rethink db for the data store.
-
-                Following are the tech and libararies which I have used  
+    			<span>H</span>i in this page I would like to talk about this App. I have started this project as an example for React Router and Flux. I have used several libraries to complete the project. I have created a simple rest service using NodeJs and Rethink DB for the data store. Following are the tech and libraries that I have used  
                 <a href="https://github.com/kishorevarma/nakiva.com" className="githubUrl">https://github.com/kishorevarma/nakiva.com</a>
                 <ul>
     				<li> React Js </li>
@@ -27,12 +22,11 @@ let About = React.createClass({
     		</p>
 
             <p>
-                The new things which I learned from this project is how to use ES7 deceorators and  higher-order components.
-                Decorartors are going to be introduced in ES7 and they are worth to learn.
+                The new things that have I learned from this project are how to use ES7 decorators and higher-order components. Decorators are introduced in ES7, and they are worth to learn.
             </p>
 
             <p> I took boilerplate code from Dan Abromoves React Flux Example </p>
-            <p> The work which I have to complete is server side rendering and remove css and use less </p>
+            <p> The work that I have to complete is server side rendering and remove CSS and use LESS </p>
     	</div>
     );
   }
