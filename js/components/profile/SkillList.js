@@ -15,7 +15,7 @@ export default class Skills extends Component {
 				</p>
 				<ul className="skills"> 
 					{
-						map(skills, function(skiSince few years, I am using Node JS as backend. Earlier I have used PHP, Perl as backend. Click to see the skills in each section.ll) {
+						map(skills, function(skill) {
 							return (
 								<Link to={`/profile/skill/${skill.id}`} key={skill.id}>
 									<li key={skill.id}>{skill.section}</li>
